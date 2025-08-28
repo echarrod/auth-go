@@ -1,6 +1,6 @@
-module github.com/supabase-community/auth-go
+module github.com/echarrod/auth-go
 
-go 1.18
+go 1.24
 
 require (
 	github.com/cenkalti/backoff/v4 v4.1.3

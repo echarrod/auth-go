@@ -1,9 +1,9 @@
 # auth-go
 
-![example branch parameter](https://github.com/supabase-community/auth-go/actions/workflows/test.yaml/badge.svg?branch=main)
-[![codecov](https://codecov.io/gh/supabase-community/auth-go/branch/main/graph/badge.svg?token=JQQJKETMRX)](https://codecov.io/gh/supabase-community/auth-go)
-![GitHub](https://img.shields.io/github/license/supabase-community/auth-go)
-[![Go Reference](https://pkg.go.dev/badge/github.com/supabase-community/auth-go.svg)](https://pkg.go.dev/github.com/supabase-community/auth-go)
+![example branch parameter](https://github.com/echarrod/auth-go/actions/workflows/test.yaml/badge.svg?branch=main)
+[![codecov](https://codecov.io/gh/echarrod/auth-go/branch/main/graph/badge.svg?token=JQQJKETMRX)](https://codecov.io/gh/echarrod/auth-go)
+![GitHub](https://img.shields.io/github/license/echarrod/auth-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/echarrod/auth-go.svg)](https://pkg.go.dev/github.com/echarrod/auth-go)
 
 A Golang client library for the [Supabase Auth](https://github.com/supabase/auth) API.
 
@@ -20,7 +20,7 @@ The endpoints for SSO SAML are not tested and `POST /sso/saml/acs` does not prov
 ### Install
 
 ```sh
-go get github.com/supabase-community/auth-go
+go get github.com/echarrod/auth-go
 ```
 
 ### Usage
@@ -28,7 +28,7 @@ go get github.com/supabase-community/auth-go
 ```go
 package main
 
-import "github.com/supabase-community/auth-go"
+import "github.com/echarrod/auth-go"
 
 const (
     projectReference = "<your_supabase_project_reference>"
